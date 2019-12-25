@@ -10,3 +10,8 @@ lista = [
 
 for key, group in groupby(lista, lambda key: list(key)):
     print('{}: {}'.format(key[0], [i[key[0]] for i in group]))
+
+"""
+a: [1, 5, 3]
+b: [2, 9]
+"""
